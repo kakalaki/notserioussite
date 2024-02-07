@@ -1,0 +1,131 @@
+nav {
+	background-color: #fdfdfd;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	width: 100%;
+	height: auto;
+	border-bottom: 1.5px solid black;
+	margin-top: -15px;
+}
+
+nav ul {
+	display: inline;
+	list-style-type: none;
+	justify-content: space-around;
+	padding: 33%;
+	font-family: 'Caveat', cursive;
+	font-size: x-large;
+}
+
+nav li {
+	display: inline-block;
+	width: 10%;
+}
+
+#logonav {
+	font-size: 36px;
+	animation: 2s slide-right ease-in-out;
+	overflow: hidden;
+	margin-bottom: -10px;
+}
+
+#oferta {
+	margin-left: 5px;
+}
+
+footer {
+	height: 10px;
+	text-align: center;
+	font-family: 'arial';
+	font-size: 8px;
+	margin-top: 5px;
+}
+
+
+@keyframes slide-right {
+	from {
+		width: 0%
+	}
+
+	to {
+		width: 100%;
+	}
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+#zdjecia {
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+	height: 1%;
+	margin-bottom: -250px;
+}
+
+main img {
+	height: 400px;
+	object-fit: cover;
+	box-shadow: 1px 1px 10px 1px black;
+	margin-top: 5px;
+	border-radius: 15px;
+}
+
+main {
+	text-align: center;
+	font-size: 10.5px;
+	font-family: 'Caveat', cursive;
+}
+
+#textPhoto {
+	display: inline-block;
+	width: 50%;
+	margin-left: 15px;
+	font-style: oblique;
+	color: rgba(30,30,30,0.7);
+	box-shadow: 1px 1px 10px 1px rgba(30,30,30,0.1);
+	border-radius: 15px;
+	margin-bottom: -250px;
+}
+
+main img:hover {
+	animation: shadows 1s;
+}
+
+@keyframes shadows {
+	0% {
+		box-shadow: 1px 1px 10px 1px black;
+		border-radius: 15px;
+	}
+	25% {
+		box-shadow: 0px 0px 1px 0px black;
+	}
+	50% {
+		box-shadow: 1.5px 1.5px 15px 1.5px black;
+		border-radius: 30px;
+	}
+	75% {
+		box-shadow: 0px 0px 1px 0px black;
+	}
+	100% {
+		box-shadow: 1px 1px 10px 1px black;
+		border-radius: 15px;
+	}
+}
+
+#textMovies {
+	display: inline-block;
+	width: 0%;
+	margin-left: 15px;
+	font-style: oblique;
+	color: rgba(30,30,30,0.7);
+	box-shadow: 1px 1px 10px 1px rgba(30,30,30,0.1);
+	border-radius: 15px;
+	margin-bottom: -250px;
+	margin-left: -20px;
+	margin-right: 10px;
+}

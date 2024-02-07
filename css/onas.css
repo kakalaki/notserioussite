@@ -1,0 +1,170 @@
+nav {
+	background-color: #fdfdfd;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	width: 100%;
+	height: auto;
+	border-bottom: 1.5px solid black;
+	margin-top: -15px;
+}
+
+nav ul {
+	display: inline;
+	list-style-type: none;
+	justify-content: space-around;
+	padding: 33%;
+	font-family: 'Caveat', cursive;
+	font-size: x-large;
+}
+
+nav li {
+	display: inline-block;
+	width: 10%;
+}
+
+#logonav {
+	font-size: 36px;
+	animation: 2s slide-right ease-in-out;
+	overflow: hidden;
+	margin-bottom: -10px;	
+}
+
+#oferta {
+	margin-left: 5px;
+}
+@keyframes slide-right {
+	from {
+		width: 0%
+	}
+
+	to {
+		width: 100%;
+		
+	}
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+main {
+	display: grid;
+	width: 100%;
+	grid-template-columns: repeat(2, 1fr);
+
+
+}
+
+main img {
+	margin-left: 200px;
+	margin-top: 40px;
+	width: 500px;
+	height: 700px;
+	object-fit: cover; 
+
+}
+
+main p {
+	text-align: center;
+}
+
+footer {
+	height: 10px;
+	text-align: center;
+	font-family: 'arial';
+	font-size: 8px;
+	margin-top: 50px;
+}
+
+#miau {
+	border-radius: 10px;
+	box-shadow: 1px 1px 93px -50px rgba(0,0,0,1);
+	animation: 5.1s slide-right2 ease-in-out infinite;
+	overflow: hidden;
+}
+
+@keyframes slide-right2 {
+	0% {
+		width: 0px;
+	}
+	10% {
+		width: 0px;
+	}
+	25% {
+		width: 500px;
+	}
+
+	50% {
+		width: 500px;
+	}
+
+	75% {
+		width: 500px;
+	}
+	
+	90% {
+		width: 0px;
+	}
+
+	100% {
+		width: 0px;
+	}
+}
+
+main h1 {
+	text-align: center;
+	font-family: 'Caveat', cursive;
+	font-size: 50px;
+	width: 500px;
+}
+
+#imgSlider {
+	width: 50%;
+	height: 100%;
+	object-fit: cover;
+	margin-left: 100px;
+}
+
+#myBro {
+	width: 50%;
+	object-fit: cover;
+	margin-top: 40px;
+}
+
+#arrows {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+
+}
+
+#moveLeft {
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent; 
+  
+  border-right:10px solid black; 
+
+  margin-left: 100px;
+  cursor: pointer;
+}
+
+#moveRight {
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent; 
+  
+  border-left:10px solid black; 
+  margin-left: 90px;
+  cursor: pointer;
+}
+
+#page {
+	width: 20px;
+	font-size: 20px;
+	font-family: "Caveat", cursive;
+	margin-left: 90px;
+}
