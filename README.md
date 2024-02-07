@@ -1,0 +1,2 @@
+# notserioussite
+Little, fun project.
